@@ -1,3 +1,21 @@
+Обучающий проект интернет-магазина пицц на React. 
+Cсылка на курс: https://www.youtube.com/watch?v=_UywBskWJ7Q&list=PL0FGkDGJQjJG9eI85xM1_iLIf6BcEdaNl
+
+Используемые технологии:
+- **ReactJS 18**
+- **TypeScript**
+- **Redux Toolkit** (хранение данных / пицц)
+- **React Router v6** (навигация)
+- **Axios + Fetch** (отправка запроса на бэкенд)
+- React Hooks (хуки)
+- Prettier (форматирование кода)
+- CSS-Modules / SCSS (стилизация)
+- React Content Loader (скелетон)
+- React Pagination (пагинация)
+- Lodash.Debounce
+- Code Splitting, React Loadable, useWhyDidYouUpdate
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

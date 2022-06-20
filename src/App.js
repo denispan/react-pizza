@@ -6,9 +6,6 @@ import PageNotFound from "./pages/404/404";
 import {Routes, Route} from "react-router-dom";
 import Cart from "./pages/cart/cart";
 
-const SearchContext = React.createContext('');
-console.log(SearchContext);
-
 function App() {
 const [searchValue, setSearchValue] = React.useState();
   return (
