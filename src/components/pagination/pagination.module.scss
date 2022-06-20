@@ -1,0 +1,43 @@
+.root {
+  display: flex;
+  padding-left: 100px;
+  padding-bottom: 60px;
+
+  :global {
+  .selected {
+  a {
+  color: #fff;
+    background-color: #fe5f1e;
+  }
+
+
+
+  }
+  }
+
+  li {
+  position: relative;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease-out;
+
+    &:hover {
+    transform: translateY(-5px);
+
+    }
+
+      a {
+
+        border: 1px solid #fe5f1e;
+        border-radius: 20px;
+        padding: 10px;
+
+        &:hover {
+          color: #fff;
+          background-color: #fe5f1e;
+        }
+      }
+  }
+
+
+}
